@@ -1,0 +1,27 @@
+Quiz Application Code :
+
+
+<div id="Quiz-modal" class="Quiz-modal-css">
+<div class="maindiv" style=" position: absolute; width: -webkit-fill-available; " >
+<div class="quiz-title" > Modal Quiz </div>
+<edit class="chatbtn" id="chattbbbtn" onclick="myFunctionChat()" ><i class="fas fa-comment-dots" style="font-size:14px; margin-right:10px; margin-top:06px; color:white;"></i></edit>
+<button class="zoomout"> <i class="fa-solid fa-minus" style="font-size:13px; margin-right:10px; margin- top:06px; color:white;"></i> </button> </div>
+<calcb class="calcBtn" id="calcbtn" onClick = "this.style.visibility= 'hidden';" ><i class="fa-solid fa-calculator" style="font-size:14px; margin-right:10px; margin-top:06px; color:white;"></i>
+<div class="Quizmodal-content" id="Quizmodal-content-id"> <div id="instructions" >
+<div class="question" style="font-size: 22px;" ><span>General Instructions :</span></div> <div style="font-size:17px; font-family:poppins; color:black; margin-left:25px;">
+<li class="info"> You will have only <span>30 minutes</span> per each quiz session.</li> <li class="info">You can't move to next question without answering current one.</li>
+<li class="info">You can't select any option once time goes off.</li> </div>
+<button class="reset" onclick="close_div(1)">Exit</button>
+<div class="quizContainer container-fluid well well-lg" id="Quiz-modal-qa"> <div id="quiz-epgsk" class="text-center"
+<span id='timer' style=" font-size: 18px; font-weight: 500; height: 30px; width: 90px; color: #fff; font-family:google sans; border-radius: 5px; line-height: 30px; text-align: center; background: #343a40; border: 1px solid #343a40; user-select: none; transition: .2s; "></span></timer-div> </div>
+<div class="question"></div>
+<ul class="choiceList"></ul>
+<div class="quizMessage"></div>
+<div class="result" id="result-score"></div>
+</div>
+
+ <div id="footer" class="footer-quiz" style="float:left; display:inline-flex; margin-left: 15px; "> <button class="reset" onClick="window.location.reload();">Reset</button>
+<button class="preButton"> Prev</button>
+<button class="nextButton"> Next </button>
+<button class="resultsBtn" id="resultbtn" onclick="myFunctionResult()" > View Result </button> </div>
+</div>
